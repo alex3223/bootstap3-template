@@ -1,0 +1,223 @@
+body {
+    margin-top: 70px;
+    background-color: #f2f2f2;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+    font-family: 'Raleway';
+    font-weight: 300;
+    color: #333;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+a {
+    color: #f85c37;
+
+    :hover, :focus 
+    {
+        color: #7b7b7b;
+        text-decoration: none;
+        outline: 0;
+    };
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-inverse {
+    background-color: #2d2d2d;
+    border-color: #2d2d2d;
+
+    .navbar-nav > .active > a {
+        background-color: #ff7878
+    }
+
+    .navbar-brand {
+        color: #999;
+        font-weight: bolder;
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+}
+
+#headerwrap {
+    background: url(../img/apple-black-and-white-black-and-white-169573.jpg) no-repeat center top;
+    margin-top: -20px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 650px;
+    width: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    h1 {
+      margin-top: 15px;
+      color: #fff;
+      font-size: 70px;
+      font-weight: 300;
+      letter-spacing: 3px;
+    }
+
+    h2 {
+        color:#fff;
+        font-size: 40px;
+        margin-top: -30px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+}
+
+.wrapper {
+    padding-top: 30px;
+
+    h4 {
+        font-size: 25px;
+    }
+}
+
+#dg {
+
+    background-color: #e0e0e0;
+    padding-bottom: 70px;
+    padding-top: 70px; 
+    text-align: center;
+
+    h4 {
+        font-size: 40px;
+    }
+
+    img {
+        transition: 0.5s ease;
+        width: 80%;
+
+        :hover {
+            transform: rotate(-10deg);
+        }
+
+        @media (max-width: 1000px){
+            height: 400px;
+            width: 70%;
+            margin-top: 25px; 
+        }
+    }
+}
+
+.tilt {
+    transition: all 0.5s ease;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+
+    :hover {
+        transform: rotate(-10deg);
+
+        -webkit-transform: rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        -o-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+    }
+}
+
+.wb {
+    padding-top: 35px;
+    margin-bottom: 0;
+
+    h4 {
+        font-size: 35px;
+    }
+}
+
+#lg {
+
+    background-color: #ebebeb;
+    padding-bottom: 70px; 
+    text-align: center;
+
+    h4 {
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+
+    img {
+        width: 80%;
+
+        @media (max-width: 1000px){
+            height: 100px;
+            width: 20%;
+            margin-top: 30px;
+        }
+    }
+}
+
+#web-red-section {
+    background-color: #ff7878;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    h4 {
+        color: white;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    p {
+        color: white;
+    }
+}
+
+.footer {
+    background-color: #2d2d2d;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+
+    i {
+        color: #bdbdbd;
+        font-size: 30px;
+        padding: 20px;
+    }
+
+}
+
+.centered {
+    text-align: center;
+}
+
+.footer i:hover {
+  color: #ff7878;  
+}
+
